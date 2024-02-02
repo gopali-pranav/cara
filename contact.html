@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara</title>
+    <link rel="icon" href="img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="script.css">
+</head>
+<body>
+    <nav id="header" class="py-4 px-20">
+        <a href="#"><img src="img/logo.png" class="logo" alt="cara"></a>
+        <div>
+            <ul id="navbar" class="font-semibold">
+                <li><a class="line-slide" href="index.html">Home</a></li>
+                <li><a class="line-slide" href="shop.html">Shop</a></li>
+                <li><a class="line-slide" href="blog.html">Blog</a></li>
+                <li><a class="line-slide" href="about.html">About</a></li>
+                <li><a class="active line-slide" href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping shop-cart"></i></a></li>
+                <li><a href="#" id="close"><i class="fa-solid fa-xmark"></i></a></li>
+            </ul>
+        </div>
+        <div id="mobile">
+          <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="page-header" style="background-image: url(img/about/banner.png);">
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE, We love to hear from you! </p>
+    </section>
+
+    <section id="contact-details">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <p>56 Glassford Street Glasgow G1 1UL Kathmandu,Nepal</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>contact@example.com</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <p>contact@example.com</p>
+                </li>
+                <li>
+                    <i class="fa-regular fa-clock"></i>
+                    <p>Monday to Friday: 2.00pm to 4.00pm</p>
+                </li>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.2958773989403!2d85.3328249757684!3d27.67724872681772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19ea1bf3d419%3A0x27bbb0db6a267b41!2sSankhamul%20-%20Balkumari%20Rd%2C%20Lalitpur%2044600!5e0!3m2!1sen!2snp!4v1706809099009!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="form-details">
+        <form>
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <div class="mb-3">
+                <label for="exampleInputName1" class="form-label">Your name</label>
+                <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+                <div id="nameHelp" class="form-text"></div>
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputsubject1" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="exampleInputsubject1" aria-describedby="subjectHelp">
+                <div id="subjectHelp" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <label for="floatingTextarea1" class="form-label">Feedback</label>
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea1" style="height: 100px"></textarea>
+              </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+          <div class="people">
+            <div>
+                <img src="img/people/1.png" alt="">
+                <p><span>Joe Jonny</span>Senior Marketing Manager <br> Phone:+977 987654321 <br>
+                Email: contactus@gmail.com</p>
+            </div>
+            <div>
+                <img src="img/people/2.png" alt="">
+                <p><span>william Smith</span>Senior Marketing Manager <br> Phone:+977 987654321 <br>
+                Email: contactus@gmail.com</p>
+            </div>
+            <div>
+                <img src="img/people/3.png" alt="">
+                <p><span>Emma Stone</span>Senior Marketing Manager <br> Phone:+977 987654321 <br>
+                Email: contactus@gmail.com</p>
+            </div>
+          </div>
+    </section>
+
+    <section id="newsletter" style="margin-top: 200px;">
+        <div class="newstext">
+          <h4>Sign Up For Newsletters</h4>
+          <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+          <input type="text" placeholder="Your email address">
+          <button>Sign Up</button>
+        </div>
+      </section>
+
+    <footer>
+      <div class="colm">
+        <img class="logo" src="img/logo.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address: </strong> 562 wellington Road, Street 32, San Francisco</p>
+        <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="colm">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+
+      <div class="colm">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="colm install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="">
+          <img src="img/pay/play.jpg" alt="">
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img class="gateways" src="img/pay/pay.png" alt="">
+      </div>
+
+      <div class="copyright">
+        <p>&#169; 2024, Vrit-Technologies etc - HTML CSS Ecommerce Template</p>
+      </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
